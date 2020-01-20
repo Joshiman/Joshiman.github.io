@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : "Eyasu G.Michael"
-  avatar           : "/images/bio-pic-2.jpg" # path of avatar image, e.g. "/assets/images/seaview.jpg"
+  avatar           : "/images/face2face.jpg" # path of avatar image, e.g. "/assets/images/seaview.jpg"
   bio              : "Data Science Portfolio"
   location         : "Stavanger Norway"
   email            :
