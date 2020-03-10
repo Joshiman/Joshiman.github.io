@@ -1,4 +1,10 @@
-
+title: "Creating a JSON file for petroleum Software  "
+date: 2020-03-20
+tags: [ data science, messy data, Ideal gas]
+header:
+  image: "/images/Ideal_gas.jpg"
+excerpt: "Data Wrangling, Data Science, Messy Data"
+mathjax: "true"
 ### The objective of this work is to creat a stratigraphy data with name, its depth and its respective measured distance (md)  and true vertical distance(tvd). To do this two json file are presented.  
               1: stratigraphy.json 
               2: wellpath.json 
