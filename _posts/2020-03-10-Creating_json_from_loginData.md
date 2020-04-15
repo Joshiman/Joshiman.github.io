@@ -8,7 +8,7 @@ header:
 excerpt: "Exploratory data analysis, Data Science, Messy Data"
 mathjax: "true"
 ---
-### The objective of this work is to creat a stratigraphy data with name, its depth and its respective measured distance (md)  and true vertical distance(tvd). To do this two json file are presented.  
+### The objective of this work is to create stratigraphic data with its name, depth and with their respective true vertical distance (tvd) and measured distance (md).  To do this two JSON files are presented.  
               1: stratigraphy.json 
               2: wellpath.json 
       
