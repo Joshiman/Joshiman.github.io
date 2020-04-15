@@ -1,11 +1,11 @@
 
 
-title: "Ideal Gas "
+title: "json file "
 date: 2020-01-29
-tags: [ data science, messy data, Ideal gas]
+tags: [ data science, messy data,json,  stratigraphy, wellpath  ]
 header:
   image: "/images/Ideal_gas.jpg"
-excerpt: "Data Wrangling, Data Science, Messy Data"
+excerpt: "Exploratory data analysis, Data Science, Messy Data"
 mathjax: "true"
 
 ### The objective of this work is to creat a stratigraphy data with name, its depth and its respective measured distance (md)  and true vertical distance(tvd). To do this two json file are presented.  
