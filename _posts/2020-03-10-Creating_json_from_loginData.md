@@ -1,5 +1,4 @@
 ---
-
 title: "Creating a JSON file "
 date: 2020-01-29
 tags: [ data science, messy data,json,  stratigraphy, wellpath  ]
