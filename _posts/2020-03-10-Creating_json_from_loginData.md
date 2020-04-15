@@ -3,7 +3,7 @@ title: "Creating a JSON file "
 date: 2020-01-29
 tags: [ data science, messy data,json,  stratigraphy, wellpath  ]
 header:
-  image: "/images/Ideal_gas.jpg"
+  image: 
 excerpt: "Exploratory data analysis, Data Science, Messy Data"
 mathjax: "true"
 ---
