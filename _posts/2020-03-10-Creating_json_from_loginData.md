@@ -4,7 +4,7 @@ date: 2020-01-29
 tags: [ data science, messy data,json,  stratigraphy, wellpath  ]
 header:
   image: 
-excerpt: "Exploratory data analysis, Data Science, Messy Data"
+excerpt: "Exploratory data analysis, Data Science, JSON file, driling data,Messy Data"
 mathjax: "true"
 ---
 ### The objective of this work is to create stratigraphic data with its name, depth and with their respective true vertical distance (tvd) and measured distance (md).  To do this two JSON files are presented.  
