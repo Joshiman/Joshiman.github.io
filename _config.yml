@@ -10,7 +10,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "Norway"
 title                    : "Eyasu G.Michael"
-title_separator          : "-"
+title_separator          : "Data Scientist and Reservior Enginee"
 name                     : "Eyasu G.Michael"
 description              : "Data Scientist and Reservior Engineer"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
