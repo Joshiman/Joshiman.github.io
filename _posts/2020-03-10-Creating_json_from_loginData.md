@@ -7,11 +7,27 @@ header:
 excerpt: "Exploratory data analysis, Data Science, JSON file, driling data,Messy Data"
 mathjax: "true"
 ---
-### The objective of this work is to create stratigraphic data with its name, depth and with their respective true vertical distance (tvd) and measured distance (md).  To do this two JSON files are presented.  
+## The objective of this work is to create a json file ready for application from two raw data available from a well log and  stratigraphic data. The two datas are packed with valiable information with a single common column. Here we will clean and mearge the tow datas to get a valuable information in JSON file. The work is part of my Job interview for a ProWellPlan company back in 2020.  
+
+The two files are.  
               1: stratigraphy.json 
               2: wellpath.json 
       
-  
+ Stratigrapy.json :  File is an array of objects, where each object has below properties:
+                
+                'pickDepth' : measured depth (Unit: feet)
+                'pickName' : name of the marker
+                
+ 
+wellpath.json: File is an array of objects, where each object has below properties:
+
+               md: measured depth (in meters)
+               tvd: true vertical depth (in meters)
+               inclination: (in degrees)
+               azimuth:(in degrees)
+               north: grid north (in meters)
+               east: grid east (in meters)
+               reach: (in meters)
 
 
 ```python
