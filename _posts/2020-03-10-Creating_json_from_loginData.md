@@ -7,7 +7,7 @@ header:
 excerpt: "Exploratory data analysis, Data Science, JSON file, driling data,Messy Data"
 mathjax: "true"
 ---
-#### The objective of this work is to create a JSON file ready for application from two raw data available from a welllog and  stratigraphic data. The two datas are packed with valiable information with a single common column. Here we will clean and mearge the tow datas to get a valuable information in JSON file. The work is part of my Job interview for a ProWellPlan company back in 2020.  
+#### The objective of this work is to create a JSON file ready for application from two raw data available from a welllog and  stratigraphic data. The two datas are packed with valiable information with a single common column. Here we will clean and mearge the tow datas to get a valuable information in JSON file. The work is part of my Job interview for a ProWellPlan company back in 2020.  Jupyter Note is handly for this work. 
 
 #### The two files are.  
               1: stratigraphy.json 
@@ -30,9 +30,9 @@ wellpath.json: File is an array of objects, where each object has below properti
                east: grid east (in meters)
                reach: (in meters)
 
-
+First thing is first, let us import all the necessary libraries 
 ```python
-# import the neccsary python libraries 
+# Import the necessary python libraries 
 import pandas as pd
 import numpy as np 
 import json
@@ -40,7 +40,7 @@ import pprint
 pp = pprint.PrettyPrinter(indent=4)
 ```
 
-####  Import the json files in to pandas dataFram
+####  Import the JSON files in to pandas dataFram
 
 
 ```python
