@@ -7,27 +7,29 @@ header:
 excerpt: "Exploratory data analysis, Data Science, JSON file, driling data,Messy Data"
 mathjax: "true"
 ---
-#### The objective of this work is to create a JSON file ready for application from two raw data available from a welllog and  stratigraphic data. The two datas are packed with valiable information with a single common column. Here we will clean and mearge the tow datas to get a valuable information in JSON file. The work is part of my Job interview for a ProWellPlan company back in 2020.  Jupyter Note is handly for this work. 
+#### The objective of this work is to create a JSON file ready for software application. from two raw data  from a welllog and stratigraphic data available for us. The two datas are packed with valiable information and we need do combine them in signle Json file which our software can read and understnad it. Here we will clean and mearge the tow datas to get a valuable information in JSON file. The work is part of my Job interview for a ProWellPlan company back in 2020.  Jupyter Note is handly for this work. 
 
 #### The two files are.    
- 1: stratigraphy.json
- 2: wellpath.json 
+    1: stratigraphy.json /
+    2: wellpath.json 
       
  Stratigrapy.json :  File is an array of objects, where each object has below properties:
                 
- 'pickDepth' : measured depth (Unit: feet)
- 'pickName' : name of the marker
+    'pickDepth' : measured depth (Unit: feet)
+    'pickName' : name of the marker
                 
  
 wellpath.json: File is an array of objects, where each object has below properties:
-               md: measured depth (in meters)
-               tvd: true vertical depth (in meters)
-               inclination: (in degrees)
-               azimuth:(in degrees)
-               north: grid north (in meters)
-               east: grid east (in meters)
-               reach: (in meters)
 
+    md: measured depth (in meters)
+    tvd: true vertical depth (in meters)
+    inclination: (in degrees)
+    azimuth:(in degrees)
+    north: grid north (in meters)
+    east: grid east (in meters)
+    reach: (in meters)           
+                  
+_
 First thing is first, let us import all the necessary libraries 
 ```python
 # Import the necessary python libraries 
