@@ -10,17 +10,16 @@ mathjax: "true"
 #### The objective of this work is to create a JSON file ready for application from two raw data available from a welllog and  stratigraphic data. The two datas are packed with valiable information with a single common column. Here we will clean and mearge the tow datas to get a valuable information in JSON file. The work is part of my Job interview for a ProWellPlan company back in 2020.  Jupyter Note is handly for this work. 
 
 #### The two files are.    
- ##### 1: stratigraphy.json
- ##### 2: wellpath.json 
+ 1: stratigraphy.json
+ 2: wellpath.json 
       
  Stratigrapy.json :  File is an array of objects, where each object has below properties:
                 
- ##### 'pickDepth' : measured depth (Unit: feet)
- ##### 'pickName' : name of the marker
+ 'pickDepth' : measured depth (Unit: feet)
+ 'pickName' : name of the marker
                 
  
 wellpath.json: File is an array of objects, where each object has below properties:
-
                md: measured depth (in meters)
                tvd: true vertical depth (in meters)
                inclination: (in degrees)
